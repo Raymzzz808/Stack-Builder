@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background: radial-gradient(#303b37, #1a1f1d);
+  color: #e1eeeb; */
+  min-height: 100vh;
+}
+#footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 150px;
+  padding: 5px;
+
+  width: 100vw;
+}
+.header {
+  width: 100vw;
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+.header img {
+  height: 200px;
+  box-shadow: 0 4px 2 0;
+  /* background: white; */
+}
+
+.header {
+  text-align: center;
+  margin: 0;
+  height: 150px;
+}
+
+.header h1 {
+  font-size: 1.5rem;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  padding: 50px;
+}
+
+.btn button {
+  border: 2px solid black;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  background: darkcyan;
+  color: white;
+  font-weight: bold;
+  height: 40px;
+  width: 100px;
+}
+
+.btn button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+#user-input {
+  padding: 1rem;
+  max-width: 30rem;
+  margin: 2rem auto;
+  border-radius: 4px;
+}
+
+.input-group {
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+}
+
+#user-input label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: dark-cyan;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#user-input input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid darkcyan;
+  border: solid darkcyan 4px;
+  border-radius: 0.25rem;
+  background-color: transparent;
+  color: black;
+  font-size: 1rem;
+}
+
+#result {
+  max-width: 50rem;
+  margin: 2rem auto;
+  padding: 1rem;
+  table-layout: fixed;
+  border-spacing: 1em;
+  text-align: right;
+  padding: 0;
+  margin-top: 55px;
+  margin-bottom: 0;
+}
+
+#result thead {
+  font-size: 1.1rem;
+  color: darkcyan;
+}
+
+#result tbody {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 0.85rem;
+  color: black;
+}
+
+.center {
+  text-align: center;
+}
